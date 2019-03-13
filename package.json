@@ -1,0 +1,16 @@
+{
+  "name": "bleno-mac-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bleno": "github:notjosh/bleno#inject-bindings",
+    "bleno-mac": "github:notjosh/bleno-mac",
+    "xpc-connection": "git+https://github.com/taoyuan/node-xpc-connection.git"
+  }
+}
